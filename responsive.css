@@ -83,7 +83,7 @@
         display: block;
     }
 
-     .search-box {
+    .search-box {
         display: block;
         margin-right: 30px;
     }
@@ -124,6 +124,13 @@
     }
 
 
+    .main-card .btn {
+        display: block;
+        margin: 20px auto;
+        width: 70%;
+        padding: 15px 0;
+    }
+
 
 }
 
@@ -138,7 +145,7 @@
         display: none;
     }
 
-     .search-box {
+    .search-box {
         display: block;
         margin-right: 30px;
     }
@@ -204,46 +211,46 @@
         margin-top: 100px;
     }
 
-/* ______________________card________________ */
+    /* ______________________card________________ */
 
-.main-card .card-content {
-    padding: 10px 5px;
-    text-align: center;
-}
-
-
-.main-card .btn {
-    display: block;
-    margin: 20px auto;
-    width: 70%;
-    padding: 15px 0;
-}
+    .main-card .card-content {
+        padding: 10px 5px;
+        text-align: center;
+    }
 
 
- .main-card .card {
-    border-radius: 5px;
-    width: 300px;
-    overflow: hidden;
-    box-shadow: 1px 1px 10px 2px rgb(243, 236, 236);
-    transition: 0.3s;
-    cursor: pointer;
-}
+    .main-card .btn {
+        display: block;
+        margin: 20px auto;
+        width: 70%;
+        padding: 15px 0;
+    }
 
-.new-books .main-card .card {
-    border-radius: 5px;
-    width: 300px;
-    overflow: hidden;
-    box-shadow: 1px 1px 10px 2px rgb(243, 236, 236);
-    transition: 0.3s;
-    cursor: pointer;
-}
 
-.card-img img {
-    object-fit: cover;
-    width: 300px;
-    height: 320px;
-    object-fit: contain;
-}
+    .main-card .card {
+        border-radius: 5px;
+        width: 300px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px 2px rgb(243, 236, 236);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .new-books .main-card .card {
+        border-radius: 5px;
+        width: 300px;
+        overflow: hidden;
+        box-shadow: 1px 1px 10px 2px rgb(243, 236, 236);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+
+    .card-img img {
+        object-fit: cover;
+        width: 300px;
+        height: 320px;
+        object-fit: contain;
+    }
 
 
 
