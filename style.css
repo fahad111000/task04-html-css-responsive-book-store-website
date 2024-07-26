@@ -13,8 +13,18 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    height: 90px;   
+    height: 90px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo h1 {
+    font-size: 39px;
+    color: rgb(1, 51, 63);
+}
+
+.logo span{
+    letter-spacing: 14px;
+    font-size: 12px;
 }
 
 
@@ -28,10 +38,12 @@ body {
 .nav-items li a {
     text-decoration: none;
     font-size: 20px;
+    color: rgb(1, 51, 63);
 }
 
+
+/* SEARCH BOX */
 .search-box {
-    /* border: 2px solid red; */
     display: flex;
 }
 
@@ -39,7 +51,7 @@ body {
     color: rgb(1, 51, 63);
 }
 
-.search-box input{
+.search-box input {
     padding: 5px 10px;
     outline: none;
     font-style: italic;
@@ -48,15 +60,12 @@ body {
     border: 1px solid rgb(128, 128, 128);
 }
 
-.search-box input:hover {
-}
-
 .search-box input:focus {
     background-color: rgba(201, 203, 204, 0.199);
 }
 
 
-/* __________________________________________________________ */
+/* _____________________Banner_____________________________________ */
 
 
 
@@ -71,15 +80,15 @@ body {
     display: flex;
     width: 100%;
     margin: 0 auto;
-    
+
 }
 
-.col-1 { 
-    width:  40%;
+.col-1 {
+    width: 40%;
 }
 
 .banner .col-1 .content {
-    margin-top: 40px;    
+    margin-top: 40px;
 }
 
 .content h5 {
@@ -94,9 +103,10 @@ body {
     padding-bottom: 20px;
 
 }
+
 .content .btn {
     cursor: pointer;
-    border:2px solid  rgb(1, 60, 75);
+    border: 2px solid rgb(1, 60, 75);
     padding: 12px 20px;
     background: #fff;
     font-weight: bold;
@@ -122,12 +132,12 @@ body {
 /* ---------------- Books Section---------------------- */
 
 
-.new-books-section {
+.popular-book-section {
     /* border: 2px solid red; */
     padding: 50px 0;
 }
 
-.new-books-section h2 {
+.popular-book-section h2 {
     text-align: center;
     color: rgb(1, 60, 75);
 }
@@ -145,43 +155,48 @@ body {
 
 .main-card .card {
     border-radius: 5px;
-    width:200px;    
+    width: 200px;
     overflow: hidden;
-    box-shadow:  1px 1px 10px 2px rgb(243, 236, 236);
+    box-shadow: 1px 1px 10px 2px rgb(243, 236, 236);
     transition: 0.3s;
     cursor: pointer;
 }
 
 .main-card .card:hover {
     /* transform: translateY(-10px); */
-    box-shadow:  1px 1px 19px 2px rgba(1, 51, 63, 0.226);
+    box-shadow: 1px 1px 19px 2px rgba(1, 51, 63, 0.226);
+}
+
+.card-img {
+    border-bottom: rgba(221, 219, 219, 0.658);
 }
 
 .card-img img {
+    object-fit: cover;
     width: 200px;
-    height: 200px;
- }
+    height: 220px;
+}
 
- .main-card .card-content {
+.main-card .card-content {
     padding: 10px 5px;
- }
+}
 
- .main-card .book-name {
+.main-card .book-name {
     padding: 10px 0;
     color: rgb(1, 60, 75);
- }
+}
 
- span {
+span {
     color: black;
     font-weight: bold;
- }
+}
 
- .main-card .card-content :nth-child(2) {
+.main-card .card-content :nth-child(2) {
     text-decoration: line-through;
     color: grey;
- }
+}
 
- .main-card .btn {
+.main-card .btn {
     display: block;
     width: 80px;
     background-color: #fff;
@@ -191,34 +206,66 @@ body {
     border-radius: 2px;
     border: 2px solid rgb(1, 51, 63);
     transition: 0.3s;
- }
+}
 
- .main-card .btn:hover {
+.main-card .btn:hover {
     background-color: rgb(1, 51, 63);
     color: #fff;
- }
+}
 
- /* _________________Foter Section _____________ */
+/* _________________Foter Section _____________ */
 
- footer {
+footer {
     background-color: rgba(200, 223, 223, 0.801);
- }
+}
 
- .footer-nav {
-    border: 2px solid red;
+.footer-nav {
     padding: 30px;
- }
+}
 
- .footer-nav ul {
+.footer-nav ul {
     display: flex;
     flex-direction: column;
 
     list-style: none;
     gap: 15px;
- }
+}
 
- .footer-nav ul li a {
+.footer-nav ul li a {
     text-decoration: none;
     color: rgb(1, 51, 63);
     font-size: 18px;
- }
+}
+
+.sub-footer {
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    background-color: rgb(1, 51, 63);
+}
+
+.sub-footer h4 {
+    font-weight: lighter;
+}
+
+/* __________________________NEW BOOks_______________________ */
+
+.new-books {
+    padding: 50px 0;
+}
+
+.new-books h2 {
+    text-align: center;
+    color: rgb(1, 60, 75);
+}
+
+.new-books .main-card {
+    margin: 50px auto;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
