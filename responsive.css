@@ -123,13 +123,50 @@
         padding: 10px 20px;
     }
 
+    /* _____________NEW BOOK SECTION____________ */
+
+    .new-books h2::after {
+        content: ' ';
+        width: 20%;
+        height: 3px;
+        background: rgb(1, 60, 75);
+        position: absolute;
+        top: 38px;
+        left: 41%;
+
+    }
+
+    .main-card .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
     .main-card .btn {
         display: block;
         margin: 20px auto;
-        width: 70%;
-        padding: 15px 0;
+        width: 50%;
+        padding: 10px 0;
+
+
     }
+
+    /* _________________Popular BOOK Section_____________ */
+
+    .popular-book-section h2::after {
+        content: ' ';
+        width: 28%;
+        height: 3px;
+        background: rgb(1, 60, 75);
+        position: absolute;
+        top: 38px;
+        left: 38%;
+
+    }
+
+    /* __________ New Book Section___________ */
+
 
 
 }
@@ -211,7 +248,20 @@
         margin-top: 100px;
     }
 
-    /* ______________________card________________ */
+    /* __________________NEW BOOK SECTION________________ */
+
+
+    .new-books h2::after {
+        content: ' ';
+        width: 20%;
+        height: 3px;
+        background: rgb(1, 60, 75);
+        position: absolute;
+        top: 38px;
+        left: 41%;
+
+    }
+
 
     .main-card .card-content {
         padding: 10px 5px;
@@ -222,8 +272,8 @@
     .main-card .btn {
         display: block;
         margin: 20px auto;
-        width: 70%;
-        padding: 15px 0;
+        width: 50%;
+        padding: 12px 0;
     }
 
 
@@ -235,6 +285,20 @@
         transition: 0.3s;
         cursor: pointer;
     }
+
+    /* _________________Popular BOOK Section_____________ */
+
+    .popular-book-section h2::after {
+        content: ' ';
+        width: 28%;
+        height: 3px;
+        background: rgb(1, 60, 75);
+        position: absolute;
+        top: 38px;
+        left: 38%;
+
+    }
+
 
     .new-books .main-card .card {
         border-radius: 5px;
