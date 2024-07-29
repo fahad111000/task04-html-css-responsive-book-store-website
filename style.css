@@ -22,7 +22,7 @@ body {
     color: rgb(1, 51, 63);
 }
 
-.logo span{
+.logo span {
     letter-spacing: 14px;
     font-size: 12px;
 }
@@ -278,6 +278,3 @@ footer {
 .sub-footer h4 {
     font-weight: lighter;
 }
-
-
-
